@@ -1,9 +1,8 @@
-"""Curso: Fundamentos de Programación (213022_562)
+"""
+Curso: Fundamentos de Programación (213022_562)
 Nombre del Estudiante: Jesus Manuel Beltran Motato
-Fuente: Autoria propia"""
-
-
-
+Fuente: Autoria propia
+"""
 
 def contar_titulos_populares_y_recientes(matriz_videoteca, umbral_calificacion, anio_limite):
     """ Módulo (función) encargado de ejecutar la lógica de negocio.
@@ -21,7 +20,7 @@ def contar_titulos_populares_y_recientes(matriz_videoteca, umbral_calificacion, 
         
         # Lógica de Negocio: Validación con estructura condicional básica
         if calificacion >= umbral_calificacion and anio >= anio_limite:
-            print(f" -> Cumple: '{titulo}' | Año: {anio} | Calificación: {calificacion:.1f}")
+            print(f" -> Cumple: '{titulo}' | Año: {anio} | Calificación: {calificacion:.1f} | Género: {pelicula[3]}")
             conteo += 1
 
     if conteo == 0:
